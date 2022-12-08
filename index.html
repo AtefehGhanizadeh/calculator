@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.js" integrity="sha512-PRRHSwgn8QJinp43y5B698YK/FApqSvwmd7kVu8NWMksCl/3daKnNbPNWPuGKDrpIIb+0Dg5W55VSbZi0QG60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display"><span>0</span></div>
+        <div class="btnContainer">
+            <button class="button op" id="sumBtn" value="+" onclick="sendValue(value)">+</button>
+            <button class="button op" id="subtractBtn" value="-" onclick="sendValue(value)">-</button>
+            <button class="button op" id="multiplicationBtn" value="*" onclick="sendValue(value)">×</button>
+            <button class="button op" id="DivisionBtn" value="/" onclick="sendValue(value)">÷</button>
+            <button class="button num" id="sevenBtn" value="7" onclick="sendValue(value)">7</button>
+            <button class="button num" id="eightBtn" value="8" onclick="sendValue(value)">8</button>
+            <button class="button num" id="nineBtn" value="9" onclick="sendValue(value)">9</button>
+            <button class="button num" id="fourBtn" value="4" onclick="sendValue(value)">4</button>
+            <button class="button num" id="fiveBtn" value="5" onclick="sendValue(value)">5</button>
+            <button class="button num" id="sixBtn" value="6" onclick="sendValue(value)">6</button>
+            <button class="button num" id="oneBtn" value="1" onclick="sendValue(value)">1</button>
+            <button class="button num" id="twoBtn" value="2" onclick="sendValue(value)">2</button>
+            <button class="button num" id="threeBtn" value="3" onclick="sendValue(value)">3</button>
+            <button class="button num" id="zeroBtn" value="0" onclick="sendValue(value)">0</button>
+            <button class="button num" id="dotBtn" value="." onclick="demical()">.</button>
+            <button class="button" id="clearBtn" onclick="resetAll()">C</button>
+            <button class="button" id="equalBtn" onclick="calculateResault()">=</button>
+
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
